@@ -108,6 +108,7 @@ nav .btn {
   text-align: center;
   color: #1a1a1a;
   text-shadow: 2px;
+  font-size: 24px;
 }
 .profile_bio {
   width: 70%;
@@ -118,7 +119,7 @@ nav .btn {
 .profile_bio h1 {
   font-size: 36px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .profile_bio p {
