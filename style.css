@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+.clearfix {
+  content: " ";
+  display: block;
+  clear: both;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background: #404040;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.Brand {
+  float: left;
+  color: white;
+  height: 60px;
+}
+.Brand h3 {
+  margin: 0 20px 0 10px;
+  line-height: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+}
+.Brand img {
+  width: 30px;
+  height: 30px;
+}
+.Menu-item {
+  float: left;
+}
+.Menu-item ul {
+  list-style: none;
+}
+.Menu-item li {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 10px;
+  font: size 18px;
+}
+.Menu-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.Menu-item li a:hover {
+  color: #f0f0ff;
+}
+.search {
+  float: right;
+  margin-right: 40px;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+}
+input {
+  border-radius: 12px;
+  padding: 0 10px;
+}
+nav .btn {
+  padding: 0 8px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.profile {
+  height: 300px;
+  background: #f5f5f5;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ffffff;
+  overflow: hidden;
+}
+.profile_intro {
+  width: 30%;
+  float: left;
+}
+.profile_picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.profile_picture img {
+  width: 200px;
+  height: auto;
+}
+.profile_name h3 {
+  text-align: center;
+  color: #1a1a1a;
+  text-shadow: 2px;
+}
+.profile_bio {
+  width: 70%;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.profile_bio h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.profile_bio p {
+  margin: 20px 0;
+  color: #424242;
+  line-height: 1.3;
+}
+.social_link {
+  margin: 10px 0;
+}
+.social_link a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px auto;
+  color: #404040;
+  padding: 10px;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+.twitter:hover {
+  color: #00b6f1;
+}
+.google:hover {
+  color: #c20806;
+}
+.linkedin:hover {
+  color: #04669a;
+}
+.github:hover {
+  color: #040204;
+}
+.youtube:hover {
+  color: #c31a1e;
+}
+.skype:hover {
+  color: #00aff0;
+}
+.card_design {
+  background: #f2f2f2;
+  height: 735px;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ffffff;
+  overflow: hidden;
+}
+
+.card {
+  width: 31%;
+  margin: 10px 10px;
+  background: #f2f2f2;
+  overflow: hidden;
+  float: left;
+}
+
+.card_image {
+  width: 320px;
+
+  margin: 20px 10px;
+}
+.card_image img {
+  width: 350px;
+  height: auto;
+}
+.card_title {
+  font-size: 24px;
+  text-align: center;
+}
+.card_body {
+  margin: 10px;
+  text-align: center;
+}
+
+.card_body p {
+  font-size: 18px;
+  color: #424242;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.card_body .btn {
+  text-align: center;
+  margin-right: 10px;
+  font-size: 15px;
+  padding: 2px 10px;
+  border-radius:8px;
+  border: solid 1px #414141;
+}
+.card_body .btn:hover {
+  background: #040204;
+  color: #fff;
+  cursor: pointer;
+}
